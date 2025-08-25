@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>株式会社OwlLogic - 信頼と成果を生むITソリューション</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333;
+        }
+        .header-bg {
+            background-color: #1a202c; /* Darker background for header */
+        }
+        .hero-section {
+            background: linear-gradient(to right, #4a90e2, #50e3c2); /* Gradient for hero */
+            color: white;
+        }
+        .btn-primary {
+            background-color: #4a90e2;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #357ABD;
+        }
+        .section-heading {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 2rem;
+        }
+        .footer-bg {
+            background-color: #2d3748; /* Dark background for footer */
+            color: #e2e8f0;
+        }
+        .card {
+            background-color: white;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="header-bg shadow-lg py-4 px-6 md:px-12">
+        <nav class="container mx-auto flex justify-between items-center">
+            <div class="text-white text-2xl font-bold">株式会社OwlLogic</div>
+            <ul class="flex space-x-6">
+                <li><a href="#home" class="text-white hover:text-blue-300 transition duration-300">ホーム</a></li>
+                <li><a href="#about" class="text-white hover:text-blue-300 transition duration-300">会社概要</a></li>
+                <li><a href="#services" class="text-white hover:text-blue-300 transition duration-300">事業・サービス</a></li>
+                <li><a href="#contact" class="text-white hover:text-blue-300 transition duration-300">お問い合わせ</a></li>
+                <li><a href="#recruit" class="text-white hover:text-blue-300 transition duration-300">採用情報</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section py-20 md:py-32 text-center">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+                未来を創造するITソリューションで、<br>ビジネスに革新を。
+            </h1>
+            <p class="text-lg md:text-xl mb-8">
+                株式会社OwlLogicは、お客様の課題を深く理解し、<br>最適なIT戦略と高品質なシステム開発で、信頼と成長を支援します。
+            </p>
+            <a href="#contact" class="btn-primary text-lg font-semibold inline-block shadow-lg">
+                お問い合わせはこちら
+            </a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="section-heading">会社概要</h2>
+            <div class="max-w-3xl mx-auto text-left">
+                <p class="mb-4">
+                    株式会社OwlLogicは、お客様のビジネスをITの力で加速させることを使命としています。
+                    変化の激しいIT業界において、常に最新の技術と知見を取り入れ、お客様の多様なニーズに応えるソリューションを提供しています。
+                    私たちは、単なるシステム開発に留まらず、お客様の事業成長に貢献する真のパートナーを目指します。
+                </p>
+                <div class="bg-gray-50 p-6 rounded-xl shadow-inner">
+                    <table class="min-w-full text-sm md:text-base">
+                        <tbody>
+                            <tr class="border-b border-gray-200">
+                                <td class="py-3 font-semibold w-1/3">会社名</td>
+                                <td class="py-3">株式会社OwlLogic</td>
+                            </tr>
+                            <tr class="border-b border-gray-200">
+                                <td class="py-3 font-semibold">代表者</td>
+                                <td class="py-3">中西 寛（なかにし ひろし）</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3 font-semibold">事業内容</td>
+                                <td class="py-3">
+                                    ITコンサルティング、システム開発、Webサイト制作、クラウドソリューション導入支援、その他IT関連事業
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="mt-8 text-center">
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">代表挨拶</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        この度、株式会社OwlLogicのホームページをご覧いただき、誠にありがとうございます。
+                        現代社会においてITは、ビジネスの成長、社会の発展に不可欠な存在となりました。
+                        私たちは、お客様一人ひとりの課題に真摯に向き合い、最適なITソリューションを提供することで、
+                        お客様のビジネスの可能性を最大限に引き出すお手伝いをさせていただきます。
+                        これからも、技術と信頼を追求し、社会に貢献できる企業を目指してまいります。
+                        今後とも、株式会社OwlLogicをどうぞよろしくお願い申し上げます。
+                    </p>
+                    <p class="mt-6 text-right font-semibold text-gray-800">
+                        代表取締役 中西 寛
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="section-heading">事業・サービス</h2>
+            <p class="text-lg mb-12 max-w-2xl mx-auto">
+                株式会社OwlLogicは、お客様のビジネス課題を解決するための幅広いITサービスを提供しています。
+                お客様のニーズに合わせた最適なソリューションをご提案し、ビジネスの成長を強力にサポートします。
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="card">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-600">ITコンサルティング</h3>
+                    <p class="text-gray-700">
+                        お客様のビジネス戦略とIT戦略を統合し、最適なシステム導入計画を立案。
+                        業務効率化、コスト削減、競争力強化を実現します。
+                    </p>
+                </div>
+                <div class="card">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-600">システム開発</h3>
+                    <p class="text-gray-700">
+                        お客様の要件に基づき、高品質でスケーラブルなシステムを設計・開発。
+                        Webシステム、業務システム、モバイルアプリなど、多岐にわたる開発に対応します。
+                    </p>
+                </div>
+                <div class="card">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-600">Webサイト制作</h3>
+                    <p class="text-gray-700">
+                        企業ブランディング、集客、採用など、目的に合わせた効果的なWebサイトを制作。
+                        デザインからSEO対策まで一貫してサポートします。
+                    </p>
+                </div>
+                <div class="card">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-600">クラウドソリューション</h3>
+                    <p class="text-gray-700">
+                        AWS, Azure, GCPなどのクラウド環境の設計、構築、運用を支援。
+                        セキュアで柔軟なインフラを提供し、ビジネスの俊敏性を高めます。
+                    </p>
+                </div>
+                <div class="card">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-600">セキュリティ対策</h3>
+                    <p class="text-gray-700">
+                        情報漏洩やサイバー攻撃のリスクからお客様の資産を守るためのセキュリティ対策を提案・実施。
+                        安心・安全なIT環境を構築します。
+                    </p>
+                </div>
+                <div class="card">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-600">運用・保守サポート</h3>
+                    <p class="text-gray-700">
+                        システム導入後の安定稼働をサポート。
+                        トラブル対応、機能改善、パフォーマンス最適化など、継続的な運用を支援します。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="section-heading">お問い合わせ</h2>
+            <p class="text-lg mb-8 max-w-2xl mx-auto">
+                ITに関するご相談、お見積もり、採用に関するお問い合わせなど、お気軽にご連絡ください。
+                専門スタッフが丁寧に対応させていただきます。
+            </p>
+            <div class="max-w-xl mx-auto bg-gray-50 p-8 rounded-xl shadow-lg">
+                <p class="text-lg mb-4 text-gray-700">
+                    お問い合わせは、以下のメールアドレスまでお願いいたします。
+                </p>
+                <a href="mailto:info@owllogic.co.jp" class="text-blue-600 hover:underline text-xl font-semibold">info@owllogic.co.jp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recruitment Section (Placeholder) -->
+    <section id="recruit" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="section-heading">採用情報</h2>
+            <p class="text-lg mb-8 max-w-2xl mx-auto">
+                株式会社OwlLogicでは、未来を共に創造する新たな仲間を募集しています。<br>
+                私たちのビジョンに共感し、ITの力で社会に貢献したいという熱意をお持ちの方からのご応募をお待ちしております。
+            </p>
+            <div class="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow-lg">
+                <h3 class="text-2xl font-semibold mb-4 text-blue-600">私たちのビジョン</h3>
+                <p class="text-gray-700 mb-6">
+                    私たちは、最新の技術と創造性を駆使し、お客様のビジネス課題を解決するだけでなく、
+                    社会全体のデジタルトランスフォーメーションを推進することを目指しています。
+                    社員一人ひとりが自律的に成長し、互いに協力し合うことで、最高の価値を提供できるチームでありたいと考えています。
+                </p>
+                <h3 class="text-2xl font-semibold mb-4 text-blue-600">求める人物像</h3>
+                <ul class="list-disc list-inside text-left text-gray-700 mb-6 space-y-2">
+                    <li>新しい技術や知識の習得に意欲的な方</li>
+                    <li>論理的思考力と問題解決能力に自信のある方</li>
+                    <li>チームワークを大切にし、コミュニケーション能力の高い方</li>
+                    <li>変化を恐れず、常に挑戦し続ける意欲のある方</li>
+                </ul>
+                <p class="text-gray-700">
+                    詳細な募集要項や選考フローについては、現在準備中です。
+                    ご興味をお持ちの方は、お問い合わせフォームよりお気軽にご連絡ください。
+                </p>
+                <a href="#contact" class="btn-primary mt-8 text-lg font-semibold inline-block shadow-lg">
+                    採用に関するお問い合わせ
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-bg py-8 px-6 md:px-12">
+        <div class="container mx-auto text-center text-sm">
+            <div class="flex flex-wrap justify-center space-x-4 mb-4">
+                <a href="#home" class="hover:text-blue-300 transition duration-300">ホーム</a>
+                <a href="#about" class="hover:text-blue-300 transition duration-300">会社概要</a>
+                <a href="#services" class="hover:text-blue-300 transition duration-300">事業・サービス</a>
+                <a href="#contact" class="hover:text-blue-300 transition duration-300">お問い合わせ</a>
+                <a href="#recruit" class="hover:text-blue-300 transition duration-300">採用情報</a>
+                <a href="#" class="hover:text-blue-300 transition duration-300">プライバシーポリシー</a>
+                <a href="#" class="hover:text-blue-300 transition duration-300">サイトマップ</a>
+            </div>
+            <p>&copy; 2025 株式会社OwlLogic. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
